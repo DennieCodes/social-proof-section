@@ -80,7 +80,7 @@ main {
 
 .rating-card {
   background: var(--Light-Grayish-Magenta);
-  padding: 1.25em 0;
+  padding: 0.75em 0;
   margin-bottom: 1em;
   border-radius: 10px;
 }
@@ -103,7 +103,7 @@ main {
 .card {
   background: var(--Very-Dark-Magenta);
   padding: 2.66em 2em;
-  border-radius: 5%;
+  border-radius: 2%;
   margin-bottom: 1em;
 }
 
@@ -119,6 +119,134 @@ main {
 
 .identity {
   margin-left: 1.5em;
+}
+
+/* Media Queries */
+
+@media (min-width: 481px) {
+  .rating-section {
+    padding: 0 7vw;
+  }
+}
+
+@media (min-width: 568px) {
+  main {
+    margin: 5.33em 10vw;
+  }
+}
+
+@media (min-width: 640px) {
+  main {
+    margin: 5.33em 15vw;
+  }
+
+  .rating-section {
+    padding: 0 10vw;
+  }
+}
+
+/* Adjust star widths */
+@media (min-width: 940px) {
+  .rating-stars {
+    width: 6.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: url(./images/bg-pattern-top-desktop.svg) no-repeat -9% 0%,
+      url(./images/bg-pattern-bottom-desktop.svg) no-repeat 100%, -10%;
+  }
+
+  main {
+    margin: 5.33em 11vw;
+  }
+
+  .intro {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .intro {
+    width: 45%;
+  }
+
+  .rating-section {
+    margin-top: 1em;
+    padding: 0;
+    width: 40%;
+  }
+
+  .overview {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .testimonials {
+    display: flex;
+    flex-direction: row;
+    gap: 0 2em;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: url(./images/bg-pattern-top-desktop.svg) no-repeat -9% 0%,
+      url(./images/bg-pattern-bottom-desktop.svg) no-repeat 100%, -10%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .rating-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 2em;
+    align-items: center;
+    box-sizing: border-box;
+    height: 3.66em;
+    margin-left: 3em;
+    width: 28.5em;
+  }
+
+  .card {
+    margin-top: 1em;
+    height: 10.5em;
+  }
+
+  .card:first-of-type {
+    margin-top: 0;
+  }
+
+  .card:last-of-type {
+    margin-top: 2em;
+  }
+
+  .rating-section {
+    width: 45%;
+  }
+
+  .rating-card:first-of-type {
+    margin-left: 0;
+  }
+
+  .rating-card:last-of-type {
+    margin-left: 6em;
+  }
+
+  .rating-title {
+    margin: 0;
+    margin-left: 2.33em;
+  }
 }
 
 /* Attribution */
