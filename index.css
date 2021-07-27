@@ -7,6 +7,8 @@ body {
 
   font-size: 15px;
   font-family: "Spartan", sans-serif;
+
+  background: url(./images/bg-pattern-top-mobile.svg) no-repeat;
 }
 
 li {
@@ -26,7 +28,98 @@ a {
   --White: hsl(0, 0%, 100%);
 }
 
+/* Typography */
+h1 {
+  font-size: 1.86rem;
+  color: var(--Very-Dark-Magenta);
+}
+
+h2 {
+  font-size: 0.9rem;
+  color: var(--Light-Grayish-Magenta);
+  margin: 0.33em 0;
+}
+
+h3 {
+  font-size: 0.9rem;
+  color: var(--Soft-Pink);
+  font-weight: 400;
+  margin: 0.33em 0;
+}
+
+.intro p {
+  color: var(--Dark-Grayish-Magenta);
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+p.rating {
+  color: var(--Very-Dark-Magenta);
+}
+
+.card p {
+  color: var(--Light-Grayish-Magenta);
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
 /* Layout */
+main {
+  margin: 5.33em 1.6em;
+}
+
+.overview {
+  text-align: center;
+  margin-bottom: 3.33em;
+}
+
+.intro {
+  margin-bottom: 3.2em;
+}
+
+.rating-card {
+  background: var(--Light-Grayish-Magenta);
+  padding: 1.25em 0;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+.rating-title {
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.rating-stars {
+  display: inline-block;
+  width: 6.799em;
+  height: 1em;
+  background-image: url("./images/icon-star.svg");
+  background-repeat: space no-repeat;
+}
+
+.card {
+  background: var(--Very-Dark-Magenta);
+  padding: 2.66em 2em;
+  border-radius: 5%;
+  margin-bottom: 1em;
+}
+
+.card-header {
+  display: flex;
+}
+
+.card img {
+  height: 2.66rem;
+  width: 2.66rem;
+  border-radius: 50%;
+}
+
+.identity {
+  margin-left: 1.5em;
+}
 
 /* Attribution */
 
