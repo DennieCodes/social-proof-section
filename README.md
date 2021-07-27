@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./image/screenshot.png)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/just-html5-and-css3-with-some-tricky-background-manipulations-SlJP8colz)
+- Live Site URL: [Social Proof Section](https://oculareo.github.io/social-proof-section/)
 
 ## My process
 
